@@ -1,0 +1,43 @@
+.color {
+  color: rgb(185, 109, 9);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  margin: 0;
+  padding: 0;
+}
+.blog-1 {
+  width: 50%;
+  padding-left: 12%;
+  padding-top: 11%;
+}
+.blog-1 img {
+  width: 75%;
+  margin-top: -100px;
+}
+
+.section_1 {
+  display: flex;
+}
+
+.stay_focus_div {
+  border-left: 3px solid #df2525;
+  padding-left: 15px;
+}
+.ankor{
+    text-decoration: none;
+    background-image: linear-gradient(red , rgb(218, 19, 19)) ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: wheat;
+    width: 700;
+}
+.mission{
+    color: rgb(4, 4, 88);
+    text-align: center;
+}
+.mission-2{
+    color: rgb(235, 134, 98);
+    text-align: center;
+}

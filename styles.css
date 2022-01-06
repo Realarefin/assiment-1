@@ -1,5 +1,11 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .color {
   color: rgb(185, 109, 9);
+}
+main {
+  padding: 0 8%;
 }
 h1 {
   font-family: "Poppins", sans-serif;
@@ -19,25 +25,111 @@ h1 {
 
 .section_1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
 }
 
 .stay_focus_div {
   border-left: 3px solid #df2525;
   padding-left: 15px;
 }
-.ankor{
-    text-decoration: none;
-    background-image: linear-gradient(red , rgb(218, 19, 19)) ;
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: wheat;
-    width: 700;
+.stay_focus_div h1 {
+  font-size: 62px;
+  font-weight: bold;
 }
-.mission{
-    color: rgb(4, 4, 88);
-    text-align: center;
+.ankor {
+  text-decoration: none;
+  background-image: linear-gradient(red, rgb(218, 19, 19));
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: wheat;
+  width: 700;
 }
-.mission-2{
-    color: rgb(235, 134, 98);
-    text-align: center;
+.mission {
+  color: rgb(4, 4, 88);
+  text-align: center;
+}
+.mission-2 {
+  color: rgb(235, 134, 98);
+  text-align: center;
+}
+
+.c4-color {
+  color: peru;
+  text-align: center;
+  width: 700;
+}
+.color4 {
+  color: black;
+  text-align: center;
+  width: 700;
+}
+.color-5 {
+  color: peru;
+}
+.mission_section {
+  background-color: rgba(54, 212, 251, 0.13);
+  border: 2px solid rgb(74, 122, 224);
+}
+.vission_section {
+  background-color: rgba(250, 145, 126, 0.575);
+  border: 2px solid rgba(250, 145, 126, 0.918);
+}
+.goals_section {
+  background-color: pink;
+  border: 2px solid rgb(253, 139, 158);
+}
+.images-deration {
+  width: 300px;
+  height: 320px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 27px;
+}
+.images-deration img {
+  width: 100px;
+}
+.images-deration-2 img {
+  width: 350px;
+}
+.img-design-1 img {
+  width: 350px;
+  height: 350px;
+  margin-left: -5%;
+}
+.develop {
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+.dev-bg {
+  background-image: url(images/shapes/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.develop_content {
+  margin-left: 50px;
+}
+.develop_text {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.develop_paragraph {
+  width: 450px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+.develop_button {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background: tomato;
+  padding: 15px 30px;
+  border-radius: 15px;
 }

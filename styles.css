@@ -40,7 +40,7 @@ h1 {
 }
 .ankor {
   text-decoration: none;
-  background-image: linear-gradient(red, rgb(218, 19, 19));
+  background-image: linear-gradient(#df2525, rgb(240, 127, 127));
   padding: 10px 40px;
   border-radius: 5px;
   color: wheat;
@@ -97,12 +97,13 @@ h1 {
 .img-design-1 img {
   width: 350px;
   height: 350px;
-  margin-left: -5%;
+  /* margin-left: 9%; */
+  /* margin-left: -15px; */
 }
 .develop {
   display: flex;
   align-items: center;
-  padding: 10%;
+  /* padding: 10%; */
 }
 .dev-bg {
   background-image: url(images/shapes/dream-bg.png);
@@ -110,20 +111,21 @@ h1 {
   background-position: left;
 }
 .develop_content {
-  margin-left: 50px;
+  margin-left: 250px;
 }
 .develop_text {
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-left: 45px;
 }
 .develop_paragraph {
   width: 450px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  margin-left: 45px;
 }
 .develop_button {
   text-decoration: none;
@@ -132,4 +134,12 @@ h1 {
   background: tomato;
   padding: 15px 30px;
   border-radius: 15px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+}
+.hmm {
+  margin: 5%;
+}
+.lol {
+  color: #df2525;
 }
